@@ -10,12 +10,12 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Change this to a secret key for session management
 
 # Azure Blob Storage configuration
-AZURE_CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=datastore15082024;AccountKey=/NK134K92JbOq/NXisjVTq+w8RcgaG+cbOXhIakeJO/2nZhZrnh+JdEQlNowtUpu0buj4zSO47nX+AStxEWbmg==;EndpointSuffix=core.windows.net'
+AZURE_CONNECTION_STRING = ''
 CONTAINER_NAME = 'rawfiles'
 
 # Azure Cosmos DB configuration
 ENDPOINT = 'https://db15082024.documents.azure.com:443/'
-PRIMARY_KEY = '2ipSGPEFg31du8r4tHyJ8KksLCG2RIsijx3ZbDws67IF0vLRCBcoAxTsWO1XFQkCJpbNQ2onRGB6ACDbLbtpfA=='
+PRIMARY_KEY = ''
 DATABASE_NAME = 'Invoice'
 CONTAINER_NAME = 'extractedata'
 
