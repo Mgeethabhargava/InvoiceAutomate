@@ -1,2 +1,2 @@
-# InvoiceAutomate
-InvoiceAutomate using Azure Cloud and it's Features like Azure function, web apps, cosmos db and cognitive based parser (Document Intelligence)
+# Automation of Invoices into Database records using azure 
+Invoices Automation using Azure Cloud and it's Features like Azure function, web apps, cosmos db and cognitive based parser (Document Intelligence), using these features the images which are stored in azure blob storage will be parsed using cognitive based parser  by using azure function which checks the image is available in blob storage periodically and storing the data into cosmos db instance
